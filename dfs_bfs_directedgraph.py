@@ -52,12 +52,12 @@ if __name__ == "__main__":
 
     g.bfs(start_vertex)
     g.dfs(start_vertex)
-//Enter the number of vertices: 5
-//Enter the number of edges: 5
-//Enter each directed edge (u v):
-//0 1
-//0 2
-//1 2
-//2 3
-//3 4
-//Enter the starting vertex for BFS and DFS: 0
+#Enter the number of vertices: 5
+#Enter the number of edges: 5
+#Enter each directed edge (u v):
+#0 1
+#0 2
+#1 2
+#2 3
+#3 4
+#Enter the starting vertex for BFS and DFS: 0
