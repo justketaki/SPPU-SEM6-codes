@@ -58,3 +58,24 @@ for _ in range(e):
 
 # Run Prim's Algorithm
 prim_mst(graph, n)
+
+# Enter number of nodes:
+# 5
+# Enter number of edges:
+# 6
+# Enter each edge (u v weight):
+# 1 2 2
+# 1 3 3
+# 2 3 1
+# 2 4 5
+# 3 4 4
+# 4 5 6
+
+# Edge    Weight
+# 1 - 2    2
+# 2 - 3    1
+# 3 - 4    4
+# 4 - 5    6
+
+# Total weight of MST: 13
+
