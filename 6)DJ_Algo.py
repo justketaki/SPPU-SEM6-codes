@@ -57,3 +57,26 @@ distances = dijkstra(graph, start_node, n)
 print("\nShortest distances from node", start_node)
 for node in range(1, n + 1):
     print(f"Node {node}: {distances[node]}")
+
+
+
+# Enter number of nodes:
+# 5
+# Enter number of edges:
+# 6
+# Enter each edge (u v weight):
+# 1 2 2
+# 1 3 4
+# 2 3 1
+# 2 4 7
+# 3 5 3
+# 4 5 1
+# Enter the start node:
+# 1
+# Shortest distances from node 1
+# Node 1: 0
+# Node 2: 2
+# Node 3: 3
+# Node 4: 8
+# Node 5: 6
+
