@@ -53,3 +53,22 @@ if path:
     print("Total cost:", cost)
 else:
     print("No path found from", start_node, "to", goal_node)
+
+
+
+# Enter number of edges: 4
+# Enter edges in the format: from_node to_node cost
+# a b 1
+# a c 4
+# b c 2
+# c d 1
+# Enter number of nodes: 4
+# Enter node and its heuristic value (format: node heuristic)
+# a 5
+# b 2
+# c 1
+# d 0
+# Enter start node: a
+# Enter goal node: d
+# Minimum cost path: ['a', 'b', 'c', 'd']
+# Total cost: 4
