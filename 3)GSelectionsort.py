@@ -26,3 +26,12 @@ sorted_arr = selection_sort(arr)
 # Output
 print("\nSorted array:")
 print(*sorted_arr)
+
+# Enter number of elements:
+# 5
+# Enter the elements (space separated):
+# 1 4 8 2 0
+
+# Sorted array:
+# 0 1 2 4 8
+# ​
