@@ -50,3 +50,21 @@ print("\nBFS Traversal:")
 visited_bfs = [start_node]
 queue_bfs = [start_node]
 bfs(graph, queue_bfs, visited_bfs)
+
+
+# Enter number of nodes:
+# 5
+# Enter number of edges:
+# 4
+# Enter the edges (node1 node2):
+# a b
+# a c
+# b d
+# c e
+# Enter starting node for traversal:
+# a
+
+# DFS Traversal:
+# a b d c e 
+# BFS Traversal:
+# a b c d e 
